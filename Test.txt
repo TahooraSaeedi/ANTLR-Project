@@ -1,0 +1,99 @@
+#9912762223
+
+#-Tahoora
+Saeedi
+Namegi-#
+
+lib1 = require math;
+lib2, lib3 = from math require sqrt, from math => floor;
+
+class Test implements Cat, Dog begin
+
+	private const int var1;
+	public int var2 = 20, var3 = 30;
+
+	int arr1[];
+	private int arr2[] = new int[120];
+	public const float arr3[] = [10.25, 10.50, 10.75];
+	double arr4[] = [];
+
+	private Dog var4 = Dog();
+	const Cat var5 = Cat(name, age);
+	
+	Test (char xx, string yy, double zz) begin
+		
+		xx = 'A';
+		yy = "This is my string";
+		zz = 2.55e-15;
+
+	end
+
+	int func1(bool one, int two, float three) begin
+
+		one = True;
+		two = 2 < 3 ? 10 : 20;
+		three = (2 ** 3 + (5 * 10) - 17) // 2;
+
+		for cat in arr1 begin
+			arr1[xx + yy] = cat + dog;
+		end
+
+		return two + three;
+
+	end
+	
+end
+
+class Main (Dog, Cat) begin
+	
+	int main() begin
+	
+		for (int var = 0; var < 10; var++) begin
+
+			while (var % 2 == 0) begin
+				var += 1;
+			end
+
+		end
+
+		if (xx // 2 <= 7) begin
+
+			do begin
+				xx *= 12;
+			end while (xx < 0)
+
+		end else if (yy - 1 > 12) begin
+
+			xx /= 12;
+
+		end else begin
+
+			xx %= 12;
+
+		end
+
+		func1(100 + 200, 13.55, "cat");
+	
+		switch variable begin
+			case 1:
+				xx = 13 + 15;
+				break;
+			case 2:
+				yy = 13 - 15;
+				break;
+			default:
+				xx += yy;
+				break;
+		end
+
+		try begin
+			int zz = array[100];
+		end catch (exception) begin
+			int zz = function(10, 20, 30 > 50 ? 30 : 50);
+		end
+
+		return 0;
+
+	end
+
+end
